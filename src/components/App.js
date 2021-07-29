@@ -2,7 +2,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import HomePage from './HomePage';
 import CoursePage from './CoursePage';
-import ProfessorPage from './ProfessorPage';
+import InstructorsPage from './InstructorsPage';
 import SendExamPage from './SendExamPage';
 import FilterPage from "./FilterPage";
 
@@ -14,7 +14,7 @@ export default function App() {
             <Switch>             
                 <Route path="/" component={HomePage} exact/>
                 <Route path="/courses" component={CoursePage} exact/>
-                <Route path="/instructors" component={ProfessorPage} exact/>
+                <Route path="/instructors" component={InstructorsPage} exact/>
                 <Route path="/send-exam" component={SendExamPage} exact/>
                 <Route path="/course-instructor" component={FilterPage} exact/>
             </Switch>

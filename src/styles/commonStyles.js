@@ -14,7 +14,6 @@ export const Body = styled.main`
 `
 export const Text = styled.p`
     text-align: justify;
-    font-family: 'Gowun Batang';
     font-size: 20px;
 
     @media (max-width: 414px){
@@ -51,6 +50,5 @@ export const Button = styled.button`
 export const Title = styled.h2`
     font-size: 30px;
     font-weight: 700;
-    font-family: 'Gowun Batang';
     color: #3C1053;
 `
