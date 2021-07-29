@@ -4,6 +4,8 @@ import HomePage from './HomePage'
 import CoursePage from './CoursePage'
 import ProfessorPage from './ProfessorPage'
 
+import '../styles/reset.css'
+
 export default function App() {
     return(
         <BrowserRouter> 

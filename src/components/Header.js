@@ -1,22 +1,21 @@
 import styled from 'styled-components';
 
-export default function HomePage() {
+export default function Header(){
     return(
-        <>
-        <Header>
+        <Container>
             Driven Repo Exams
-        </Header>
-        </>
+        </Container>
     )
 }
 
-const Header = styled.header`
+const Container = styled.header`
     height: 100px;
     background-color: #260B34;
     font-family: 'Ubuntu';
-    font-size: 35px;
+    font-size: 40px;
     color: #fff;
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 35px;
+    box-shadow: 0 1px 6px 0 rgb(64, 64, 64);
 `
